@@ -1,0 +1,3 @@
+<view class="inner" bindtap="bindtap">
+  {{innerText}}
+</view>

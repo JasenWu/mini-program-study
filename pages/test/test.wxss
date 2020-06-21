@@ -1,0 +1,42 @@
+.movable-area{
+  background: green;
+  width:750rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  border-top:1px solid #ccc ;
+  border-bottom:1px solid #ccc ;
+}
+
+.movable-view{
+  background: white;
+  width:1050rpx;
+  height:100rpx;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.movable-view .left{
+  width:750rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+
+.movable-view .right{
+  width:300rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movable-view .right .read,.movable-view .right .delete{
+  width:150rpx;
+  text-align: center;
+  color:white;
+}
+
+.movable-view .right .read{
+  background: #ccc;
+}
+.movable-view .right .delete{
+  background: red;
+}

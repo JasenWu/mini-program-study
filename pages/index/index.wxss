@@ -1,0 +1,48 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.wx-progress-info{
+  color:red;
+
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1826961 */
+  src: url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.eot');
+  src: url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1826961_t491pj3ulcr.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family: 'iconfont';
+  color:red;
+  font-size: 40px;
+}
+.icon-heart::before{
+  content: '\e60a';
+}
+
+

@@ -1,0 +1,25 @@
+<view class="">
+	<movable-area class="movable-area">
+		<movable-view
+		 direction="horizontal"
+		 class="movable-view"
+		 bindchange="bindchange"
+		 animation
+		 x="{{x}}"
+		 y="{{y}}"
+		 direction="all"
+		>
+			<view class="left">这里是插入到组内容</view>
+			<view class="right">
+				<view class="read">已读</view>
+				<view class="delete">删除</view>
+			</view>
+
+		</movable-view>
+	</movable-area>
+
+	<test bindtap="bindTap" inner-text="Some text" />
+
+ 
+</view>
+
